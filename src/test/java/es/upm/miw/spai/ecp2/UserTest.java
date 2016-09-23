@@ -30,4 +30,9 @@ public class UserTest{
 	public void testInitials() {
 		assertEquals("A.C.", this.user.initials());
 	}
+	
+	@Test
+	public void testFormalName() {
+	    assertEquals("Cols, Alberto", this.user.formalName());
+	}
 }
