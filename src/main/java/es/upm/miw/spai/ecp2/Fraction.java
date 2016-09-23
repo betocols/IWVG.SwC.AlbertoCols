@@ -60,4 +60,8 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public Fraction reciprocal() {
+        return new Fraction(this.denominator, this.numerator);
+    }
+    
 }
