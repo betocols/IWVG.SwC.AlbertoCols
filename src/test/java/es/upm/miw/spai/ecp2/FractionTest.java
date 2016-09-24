@@ -38,4 +38,9 @@ public class FractionTest {
         assertEquals(6, reciprocalFraction.getNumerator());
         assertEquals(3, reciprocalFraction.getDenominator());
     }
+    
+    @Test
+    public void testMultiplicar() {
+        assertEquals(6, this.fraction.multiplicar(2), 10e-5);
+    }
 }
