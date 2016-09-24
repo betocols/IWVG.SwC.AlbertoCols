@@ -64,4 +64,7 @@ public class Fraction {
         return new Fraction(this.denominator, this.numerator);
     }
     
+    public double multiplicar (double parametro) {
+        return (double) numerator * parametro;
+    }
 }
