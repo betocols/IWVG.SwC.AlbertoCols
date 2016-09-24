@@ -37,5 +37,10 @@ public class DecimalCollectionTest {
     public void testHigher() {
         assertEquals(3, this.dc.higher(), 10e-5);
     }
+    
+    @Test
+    public void testvalormin() {
+        assertEquals(-1.0, this.dc.valormin(), 10e-5);
+    }
 
 }

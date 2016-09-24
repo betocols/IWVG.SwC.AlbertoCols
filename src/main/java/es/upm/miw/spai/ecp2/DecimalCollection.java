@@ -34,5 +34,16 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public double valormin() {
+        double valormin = 0;
+        for (double item : this.collection) {
+            if ( item < valormin)
+            	valormin = item;
+        }           
+        return valormin;
+        
+    }
+    
 
 }
