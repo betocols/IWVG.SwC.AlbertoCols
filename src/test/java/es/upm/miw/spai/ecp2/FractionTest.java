@@ -43,4 +43,11 @@ public class FractionTest {
     public void testMultiplicar() {
         assertEquals(6, this.fraction.multiplicar(2), 10e-5);
     }
+    
+    @Test
+    public void testAdd() {
+        Fraction f = fraction.add(new Fraction(5, 4));
+        assertEquals(42, f.getNumerator());
+        assertEquals(24, f.getDenominator());
+    }
 }
