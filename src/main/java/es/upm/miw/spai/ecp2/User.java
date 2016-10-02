@@ -37,4 +37,8 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + "." + this.familyName.substring(0, 1) + ".";
     }
+    
+    public String formalName() {
+        return this.familyName + ", " + this.name;
+    }
 }
